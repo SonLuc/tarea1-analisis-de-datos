@@ -27,20 +27,20 @@ pip install pandas numpy matplotlib
 
 El objetivo prinicipal es identificar las características que pueden actuar como "señales" o indicadores de una **victoria del equipo azul**, así como las características de las pertida dónde el mismo equipo perdió.
 
-### 1. Analisis preliminar
+### ✅ 1. Analisis preliminar
 
 1.1 Examinar los datos para familiarizarse con las columnas correspondientes.
 
 1.2 Estadisticas descripitivas básicas
 
-- **Media:** Es el promedio de los datos, se calcula sumando todos los datos y dividiendolos por la cantidad de datos.
-- **Mediana:** Es el valor que se encuentra en el centro de los datos, es decir, la mitad de los datos son menores a la mediana y la otra mitad son mayores.
-- **Moda:** Es el valor que mas se repite en los datos.
-- **Varianza:** Es una medida de dispersión de los datos, es decir, que tan alejados estan los datos de la media, pero al cuadrado.
-- **Desviación estandar:** Es una medida de dispersión de los datos, es decir, que tan alejados estan los datos de la media.
-- **Valor máximo:** Es el valor mas alto de los datos.
-- **Valor mínimo:** Es el valor mas bajo de los datos.
-- **Rango:** Es la diferencia entre el valor mayor y el valor menor de los datos.
+- ✅ **Media:** Es el promedio de los datos, se calcula sumando todos los datos y dividiendolos por la cantidad de datos.
+- ✅ **Mediana:** Es el valor que se encuentra en el centro de los datos, es decir, la mitad de los datos son menores a la mediana y la otra mitad son mayores.
+- ✅ **Moda:** Es el valor que mas se repite en los datos.
+- ✅ **Varianza:** Es una medida de dispersión de los datos, es decir, que tan alejados estan los datos de la media, pero al cuadrado.
+- ✅ **Desviación estandar:** Es una medida de dispersión de los datos, es decir, que tan alejados estan los datos de la media.
+- ✅ **Valor máximo:** Es el valor mas alto de los datos.
+- ✅ **Valor mínimo:** Es el valor mas bajo de los datos.
+- ✅ **Rango:** Es la diferencia entre el valor mayor y el valor menor de los datos.
 
 ### 2. Visualización de los datos
 
