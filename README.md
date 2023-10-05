@@ -2,7 +2,7 @@
 
 La tarea consiste en realizar un analisis de datos sobre partidas de league of legends en un **periodo de 10 minutos**, para ello se utilizara el dataset correspondiene, de un total de 10 mil partidas, se tomara una muestra de 400 partidas para realizar el analisis.
 
-Cada partida tendra información de la partida en particular tanto del equipo rojo como azul, como por ejemplo:
+Cada partida tiene información de la partida en particular tanto del equipo rojo como azul, como por ejemplo:
 
 - Victorias ganadas y perdidas
 - Wards colocados y destruidos
@@ -59,7 +59,7 @@ El objetivo prinicipal es identificar las características que pueden actuar com
 
 ✅ 2.2 Realizar gráficos de barra para comparar las medias características anteriores **entre las victorias y derrotas** del equipo azul ¿Hay alguna diferencia significativa?
 
-✅ 2.3 Utilizar diagramas de caja (**bloxplots**) para visualizar la variabilidad y distribución de las características mencionadas, segmentadas por victoria o derrota del equipo azul. Identifique y analice cualquier dato atípico, ya sea con la **distancia de mahalanobis** o cualquier técnica de disviación estándar o con la del rango intercuartil.
+✅ 2.3 Utilizar diagramas de caja (**bloxplots**) para visualizar la variabilidad y distribución de las características mencionadas, segmentadas por victoria o derrota del equipo azul. Identifique y analice cualquier dato atípico, ya sea con la **distancia de mahalanobis** o cualquier técnica de desviación estándar o con la del rango intercuartil.
 
 ⛔ 2.4 Se puede explora y visualizar otras características que considere relevantes para el análisis.
 
@@ -72,31 +72,6 @@ El objetivo prinicipal es identificar las características que pueden actuar com
 3.2 ¿Hay características que parezcan no influir mucho en el resultado de la partida? Explique.
 
 3.3 Proporcione una breve conclusión de sus hallazgos y discuta cómo se podrían utilizar estos insights en el contexto del juego.
-
-## Instrucciones
-
-1. Del archivo `'puntos high_diamond_ranked_10min.xlsx'` debe tomar una muestra de **400 partidas** en base a lo que se le asignó, para ello se puede utilizar la siguiente instrucción:
-
-    ```python
-    import pandas as pd
-
-    df = pd.read_excel('data/puntos high_diamond_ranked_10min.xlsx', sheet_name='high_diamond_ranked_10min')
-    df = df.sample(n=400, random_state=1)
-    ```
-
-2. Puede comenzar a usar el archivo `main.ipynb` para realizar el análisis de datos.
-
-3. Para cargar el **dataset** presente en el archivo dentro de la carpeta `./data` se puede utilizar la siguiente instrucción:
-
-    ```python
-    df = pd.read_excel('data/data_example_lol.excel')
-    ```
-
-4. Para guardar el **dataset** resultante en un archivo dentro de la carpeta `./data` se puede utilizar la siguiente instrucción:
-
-    ```python
-    df.to_excel('data/data_example_lol.excel')
-    ```
 
 ## Formato de entrega
 
