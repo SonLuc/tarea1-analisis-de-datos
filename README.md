@@ -29,22 +29,22 @@ El objetivo prinicipal es identificar las características que pueden actuar com
 
 ### ✅ 1. Analisis preliminar
 
-1.1 Examinar los datos para familiarizarse con las columnas correspondientes.
+✅ 1.1 Examinar los datos para familiarizarse con las columnas correspondientes.
 
-1.2 Estadisticas descripitivas básicas
+✅ 1.2 Estadisticas descripitivas básicas
 
-- ✅ **Media:** Es el promedio de los datos, se calcula sumando todos los datos y dividiendolos por la cantidad de datos.
-- ✅ **Mediana:** Es el valor que se encuentra en el centro de los datos, es decir, la mitad de los datos son menores a la mediana y la otra mitad son mayores.
-- ✅ **Moda:** Es el valor que mas se repite en los datos.
-- ✅ **Varianza:** Es una medida de dispersión de los datos, es decir, que tan alejados estan los datos de la media, pero al cuadrado.
-- ✅ **Desviación estandar:** Es una medida de dispersión de los datos, es decir, que tan alejados estan los datos de la media.
-- ✅ **Valor máximo:** Es el valor mas alto de los datos.
-- ✅ **Valor mínimo:** Es el valor mas bajo de los datos.
-- ✅ **Rango:** Es la diferencia entre el valor mayor y el valor menor de los datos.
+- **Media:** Es el promedio de los datos, se calcula sumando todos los datos y dividiendolos por la cantidad de datos.
+- **Mediana:** Es el valor que se encuentra en el centro de los datos, es decir, la mitad de los datos son menores a la mediana y la otra mitad son mayores.
+- **Moda:** Es el valor que mas se repite en los datos.
+- **Varianza:** Es una medida de dispersión de los datos, es decir, que tan alejados estan los datos de la media, pero al cuadrado.
+- **Desviación estandar:** Es una medida de dispersión de los datos, es decir, que tan alejados estan los datos de la media.
+- **Valor máximo:** Es el valor mas alto de los datos.
+- **Valor mínimo:** Es el valor mas bajo de los datos.
+- **Rango:** Es la diferencia entre el valor mayor y el valor menor de los datos.
 
 ### 2. Visualización de los datos
 
-2.1 Utilizar histogramas para visualizar la distribución de características clave:
+✅ 2.1 Utilizar histogramas para visualizar la distribución de características clave:
 
 - La diferencia de oro `blueGoldDiff`
 - La diferencia de experiencia `blueExperienceDiff`
@@ -57,11 +57,11 @@ El objetivo prinicipal es identificar las características que pueden actuar com
 
 **¿Qué se puede decir de la distribución de los datos?**
 
-2.2 Realizar gráficos de barra para comparar las medias características anteriores **entre las victorias y derrotas** del equipo azul ¿Hay alguna diferencia significativa?
+✅ 2.2 Realizar gráficos de barra para comparar las medias características anteriores **entre las victorias y derrotas** del equipo azul ¿Hay alguna diferencia significativa?
 
-2.3 Utilizar diagramas de caja (**bloxplots**) para visualizar la variabilidad y distribución de las características mencionadas, segmentadas por victoria o derrota del equipo azul. Identifique y analice cualquier dato atípico, ya sea con la **distancia de mahalanobis** o cualquier técnica de disviación estándar o con la del rango intercuartil.
+✅ 2.3 Utilizar diagramas de caja (**bloxplots**) para visualizar la variabilidad y distribución de las características mencionadas, segmentadas por victoria o derrota del equipo azul. Identifique y analice cualquier dato atípico, ya sea con la **distancia de mahalanobis** o cualquier técnica de disviación estándar o con la del rango intercuartil.
 
-2.4 Se puede explora y visualizar otras características que considere relevantes para el análisis.
+⛔ 2.4 Se puede explora y visualizar otras características que considere relevantes para el análisis.
 
 2.5 (**PUNTO EXTRA**) Comparar gráficamente los resultados del subconjunto, ya sea victorias o derrotas con el global de victorias y derrotas (en ambos casos rondan las 5000 filas). Mencione si en base a su criterio experto los resultados son similares.
 
